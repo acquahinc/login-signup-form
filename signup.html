@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGN UP</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="login-box">
+            <h1>SIGN UP IN 5 MINUTES</h1>
+        <form>
+            <div class="input-signup">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <div class="input-box1">
+                Enter Email <input type="email" placeholder="Enter your email address here" class="center-align" required>
+            </div>
+            <div class="input-box1">
+                Enter Password <input type="password" id="password" placeholder="Enter your password here" class="center-align" required>
+            </div>
+            <div class="input-box1">
+                Re-Enter Password  <input type="password" placeholder="Confirm your password" class="center-align" required>
+            </div>
+            <label for="show-password" style="color: blue;">
+                <input type="checkbox" id="show-password"> Show Password
+            </label>
+                <div>
+                    <button>SIGN UP</button>
+                </div>
+                <div class="sign-up">
+                <p>Already a member?<a href="index.html">Log in</a></p>
+                </div>
+        </form>
+            
+        
+        </div>
+        </div>
+        
+
+        <script>
+            const passwordInput = document.getElementById('password');
+            const showPasswordCheckbox = document.getElementById('show-password');
+    
+            showPasswordCheckbox.addEventListener('change', () => {
+                if (showPasswordCheckbox.checked) {
+                    passwordInput.type = 'text';
+                } else {
+                    passwordInput.type = 'password';
+                }
+            });
+        </script>
+    </body>
+
+</html>
