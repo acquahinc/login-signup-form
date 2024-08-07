@@ -18,8 +18,8 @@ body{
     background-color: white;
     box-shadow: 2px 0px 10px black;
     border-radius: 10%;
-    padding: 40px 60px;
-    width: 100%;
+    padding: 50px 90px;
+    width: 500px;
     max-width: 400px;
     text-align: center;
     
@@ -70,14 +70,13 @@ button:hover{
 }
 .input-signup{
     display:inline-flex;
-    margin-left: -70px;
-    padding: 20px; 
+    margin-left: -60px;
     
 }
 .input-signup input{
     padding: 8px;
     margin: 2px;
-    margin-bottom: -12px;
+    width: 170px;
     border-radius: 5%;
     border-color: green;
 }
